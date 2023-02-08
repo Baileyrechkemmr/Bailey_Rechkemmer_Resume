@@ -19,3 +19,20 @@ li {
     text-decoration: none;
     font-size: 15px;
 }
+
+#botnav {
+    background-color: gray;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#botnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+}
