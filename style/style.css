@@ -1,3 +1,7 @@
+body {
+   background-color: slategray;
+}
+
 h1 {
     color: maroon;
     text-align: center;
@@ -55,7 +59,7 @@ p {
     display: none;
 }
 .show{
-    display: block;
+    display: block !important;
 }
 .container {
     display: flex;

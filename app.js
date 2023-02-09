@@ -1,28 +1,29 @@
 $(() => {
-///////////resume functions
-// farway hide/show function
-$('.far').on('click', function () {
-	$('.infoF').toggleClass("hidden");
-});
-// tesdell hide/show function
-$('.tes').on('click', function () {
-	$('.infoE').toggleClass('hidden');
-});
 
-$('.bay').on('click', function () {
-	$('.infoB').toggleClass('hidden');
-});
+	///////////resume functions
+	// farway hide/show function
+	$('.far').on('click', function () {
+		$('.infoF').toggleClass('hidden');
+	});
+	// tesdell hide/show function
+	$('.tes').on('click', function () {
+		$('.infoE').toggleClass('hidden');
+	});
 
-$('.pez').on('click', function () {
-	$('.infoP').toggleClass('hidden');
-});
+	$('.bay').on('click', function () {
+		$('.infoB').toggleClass('hidden');
+	});
 
-$('.cas').on('click', function () {
-	$('.infoC').toggleClass('hidden');
-});
-////////////home page carasel functions///////////
+	$('.pez').on('click', function () {
+		$('.infoP').toggleClass('hidden');
+	});
 
-console.log('corgi carousel connected to app.js!');
+	$('.cas').on('click', function () {
+		$('.infoC').toggleClass('hidden');
+	});
+	////////////home page carasel functions///////////
+
+	console.log('corgi carousel connected to app.js!');
 
 	let currentImgIndex = 0;
 	let numOfImages = $('.carousel-images').children().length - 1;
