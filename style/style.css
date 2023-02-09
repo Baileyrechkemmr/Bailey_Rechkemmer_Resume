@@ -10,12 +10,13 @@ li {
     list-style-type: none;
 }
 
-#topnav {
+
+.topnav {
     background-color: maroon;
     overflow: hidden;
 }
 /* come back and hard code only if bootstrap wont work */
-#topnav a {
+.topnav a {
     float: left;
     color: #020000;
     text-align: center;
@@ -24,14 +25,15 @@ li {
     font-size: 15px;
 }
 
-#botnav {
-    background-color: gray;
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.botnav {
+    grid-area: 5 / 1 /6 /-1;
+    background-color: #5a5c5b;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 0.6rem;
 }
-#botnav a {
+.botnav a {
     float: left;
     display: block;
     color: #000000;
@@ -40,10 +42,10 @@ li {
     text-decoration: none;
     font-size: 12px;
 }
-#greating {
+.greating {
     text-align: center;
 }
-#bioMain {
+.bioMain {
     text-align: center;
 }
 .jobs li{
