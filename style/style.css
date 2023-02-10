@@ -138,7 +138,7 @@ img {
 .carousel-images img:first-of-type {
     display: block;
 }
-/* text ilinement */
+/* text elenement */
 #elementText {
     padding-left: 25%;
     padding-right: 25%;
@@ -146,6 +146,7 @@ img {
     overflow: scroll;
     width: 200px;
     border: 2px solid red;
+    border-radius: 15px;
 }
 #elementText1{
     padding-left: 15%;
@@ -154,4 +155,7 @@ img {
 #elementText2{
     padding-left: 15%;
     padding-right: 15%;
+}
+.infoF {
+    margin-right: 40vh;
 }
