@@ -33,10 +33,11 @@ li {
     background-color: gray;
     bottom: 0;
     width: 100%;
-    grid-area: 5 / 1 /6 /-1;
+    grid-area: 5 / 1 /6 /-1; 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 0.6rem;
+    bottom: 0;
 }
 .botnav a {
     float: left;
@@ -129,4 +130,17 @@ p {
 
 .carousel-images img:first-of-type {
     display: block;
+}
+/* text ilinement */
+#elementText {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#elementText1{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#elementText2{
+    padding-left: 15%;
+    padding-right: 15%;
 }
