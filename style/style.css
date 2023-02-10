@@ -1,6 +1,9 @@
 
 body {
    background-color: slategray;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    height: 100vh;
 }
 
 h1 {
@@ -15,6 +18,7 @@ li {
 .topnav {
     background-color: maroon;
     overflow: hidden;
+    min-height: 34pt;
 }
 /* come back and hard code only if bootstrap wont work */
 .topnav a {
@@ -33,19 +37,19 @@ li {
     background-color: gray;
     bottom: 0;
     width: 100%;
-    grid-area: 5 / 1 /6 /-1; 
+    /* grid-area: 5 / 1 /6 /-1;  makes links stack on eachother*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 0.6rem;
     bottom: 0;
 }
-a {
+/* a {
     display: grid;
     ;
 
-}
+} */
 
-/* .botnav a {
+.botnav a {
     float: left;
     display: inline;
     color: #000000;
@@ -53,7 +57,7 @@ a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 12px; 
-} */
+}
 .greating {
     text-align: center;
 }
