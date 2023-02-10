@@ -37,17 +37,11 @@ li {
     background-color: gray;
     bottom: 0;
     width: 100%;
-    /* grid-area: 5 / 1 /6 /-1;  makes links stack on eachother*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-size: 0.6rem;
     bottom: 0;
 }
-/* a {
-    display: grid;
-    ;
-
-} */
 
 .botnav a {
     float: left;
@@ -85,9 +79,6 @@ p {
     align-items: center;
 }
 
-.container>img {
-    width: 50%;
-}
 
 .container>h1 {
     font-family: "Montserrat", impact;
@@ -113,9 +104,10 @@ p {
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 2px 2px #080807;
+    display: block;
 }
 
-.carousel-images img {
+img {
     width: 100%;
     border-radius: 10px;
     display: none;
