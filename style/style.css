@@ -39,15 +39,21 @@ li {
     font-size: 0.6rem;
     bottom: 0;
 }
-.botnav a {
+a {
+    display: grid;
+    ;
+
+}
+
+/* .botnav a {
     float: left;
-    display: block;
+    display: inline;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 12px;
-}
+    font-size: 12px; 
+} */
 .greating {
     text-align: center;
 }
