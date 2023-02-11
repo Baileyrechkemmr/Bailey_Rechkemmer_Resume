@@ -8,6 +8,20 @@
     .resume {
         width: 85%;
     }
+    div #elementTextR {
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 10px;
+            /* for scroll function */
+        overflow: scroll;
+        
+        border: 2px solid blue;
+        height: 100px;
+    }
+    .jobs {
+        text-align: center;
+        margin-left: 30px;
+    }
     
  }
 
