@@ -32,7 +32,7 @@
  .projls {
      text-align: center;
  }
- 
+
 
  .botnav {
      background-color: #d9d9d9;
@@ -186,6 +186,10 @@ img {
     width: 200px;
     border: 2px solid red;
     border-radius: 15px;
+    width: 500px;
+        overflow: auto;
+        height: 300px;
+        
 }
 #elementText {
     padding-left: 25%;
@@ -198,4 +202,10 @@ img {
 #elementText2{
     padding-left: 15%;
     padding-right: 15%;
+}
+/* for hidding scroll function */
+.far {
+    
+        
+        overflow: hidden;
 }
