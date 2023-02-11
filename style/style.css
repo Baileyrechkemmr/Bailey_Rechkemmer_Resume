@@ -113,7 +113,13 @@
     box-shadow: 1px 1px #a3a2a2be;
 }
 
-@media screen {}
+@media (max-width: 900px){
+    body {
+        display: grid;
+            grid-template-rows: auto auto 1fr auto;
+            height: 100vh;
+    }
+}
 
 img {
     width: 100%;
@@ -186,7 +192,7 @@ img {
     width: 200px;
     border: 2px solid red;
     border-radius: 15px;
-}
+}  
 #elementText {
     padding-left: 25%;
     padding-right: 25%;
