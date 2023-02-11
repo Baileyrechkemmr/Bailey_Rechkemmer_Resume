@@ -60,6 +60,6 @@ $(() => {
 
 		// stuff will go here
 	});
-	///////////scrol function for resume/////
+
 
 });

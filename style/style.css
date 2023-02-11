@@ -5,8 +5,13 @@
      height: 100vh;
  }
  @media only screen and (max-width: 900px) {
-     
+    .resume {
+        width: 85%;
+    }
+    
  }
+
+ 
  h1 {
      color: #333;
      text-align: center;
@@ -115,13 +120,6 @@
     box-shadow: 1px 1px #a3a2a2be;
 }
 
-@media (max-width: 900px){
-    body {
-        display: grid;
-            grid-template-rows: auto auto 1fr auto;
-            height: 100vh;
-    }
-}
 
 img {
     width: 100%;
@@ -194,6 +192,7 @@ img {
     width: 200px;
     border: 2px solid red;
     border-radius: 15px;
+    height: 100px;
 }  
 #elementText {
     padding-left: 25%;
